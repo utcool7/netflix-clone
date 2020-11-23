@@ -24,7 +24,7 @@ function Row({ title, fetchUrl }) {
         div className = "row" >
         <
         h2 > { title } < /h2> <
-        div className = "row__poster" > { /* row__poster */ } {
+        div className = "row__posters" > { /* row__poster */ } {
             movies.map(movie => ( <
                 img className = "row__poster"
                 src = { `${base_url}${movie.poster_path}` }
